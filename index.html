@@ -1,166 +1,278 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anushka Maurya | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anushka Maurya | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header>
-<nav>
-<h2 class="logo">Anushka</h2>
+  <nav class="navbar">
+    <div class="logo">
+      <h2>Anushka Maurya</h2>
+      <p>Frontend Developer • C++ • DSA Enthusiast</p>
+    </div>
 
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+    <div class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-</nav>
-</header>
+  <section class="hero" id="home">
+    <div class="container hero-wrap">
+      <div class="hero-left">
+        <div class="badge">Available for internships & collaborations</div>
+        <h1>Building clean, modern and interactive web experiences.</h1>
+        <p>
+          I’m Anushka Maurya, a student developer focused on frontend development, C++, and data structures.
+          I enjoy creating responsive websites, improving UI design, and learning through mini projects and coding practice.
+        </p>
 
-<section class="hero" id="home">
-    
-    <img src="images/profile.jpeg" alt="My Photo" class="profile-img">
-    
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
 
-<h1>Hi, I'm <span>Anushka Maurya</span></h1>
+        <div class="hero-stats">
+          <div class="stat-box">
+            <h3>3+</h3>
+            <p>Mini Projects</p>
+          </div>
+          <div class="stat-box">
+            <h3>HTML • CSS • JS</h3>
+            <p>Core Stack</p>
+          </div>
+          <div class="stat-box">
+            <h3>C++ & DSA</h3>
+            <p>Coding Journey</p>
+          </div>
+        </div>
+      </div>
 
-<h2 class="typing"></h2>
+      <div class="hero-right">
+        <div class="profile-card">
+          <!-- add the image -->
+           <img src="images/profile.jpeg" alt="Anushka Maurya">
+          <!-- <img src="images/profile.jpg" alt="Anushka Maurya"> -->
 
-<p>I build responsive and interactive web applications.</p>
-
-<div class="buttons">
-    
-  <a href="#projects" class="btn">View Projects
-   </a>
-
-  <a href="Resume.pdf" target="_blank">
-    <button class="btn">Download Resume</button>
-  </a>
-</div>
+          <div class="profile-placeholder">
+            
+            
+            
   
+  
+          </div>
+        </div>
 
+        <div class="profile-links">
+          <a class="profile-link" href="https://github.com/annu-codes" target="_blank">
+            <span>💻</span>
+            <h4>GitHub</h4>
+            <p>Open profile</p>
+          </a>
 
-</section>
+          <a class="profile-link" href="https://www.linkedin.com/in/anushka-maurya-8a8913313" target="_blank">
+            <span>🌐</span>
+            <h4>LinkedIn</h4>
+            <p>Professional profile</p>
+          </a>
 
+          <a class="profile-link" href="https://leetcode.com/u/Anushka0123/" target="_blank">
+            <span>⚡</span>
+            <h4>LeetCode</h4>
+            <p>Coding profile</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section id="about">
-  <h2>About Me</h2>
+  <section id="about" class="reveal">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Me</h2>
+        <p>A short introduction about my journey and interests.</p>
+      </div>
 
-  <p>
-    I am a passionate Frontend Developer and C++ programmer with a strong interest in building responsive and interactive web applications.  
-    I enjoy solving problems using Data Structures and Algorithms and continuously improving my coding skills.  
+      <div class="about-grid">
+        <div class="about-box">
+          <p class="main-text">
+            I am a passionate frontend developer and C++ learner who enjoys building websites and solving DSA problems.
+            I like creating user-friendly interfaces, practicing coding, and improving my development skills through real projects.
+          </p>
 
-    I have worked on projects like Color Switcher, BMI Calculator, and Guess the Number game.  
-    I am always eager to learn new technologies and grow as a developer.
-  </p>
+          <div class="about-points">
+            <div class="about-point">💻 Frontend Developer (HTML, CSS, JavaScript)</div>
+            <div class="about-point">⚡ C++ Programmer & DSA Enthusiast</div>
+            <div class="about-point">🚀 Built multiple mini projects</div>
+            <div class="about-point">🏆 Participated in SIH & won at internal level</div>
+            <div class="about-point">📘 Completed Entrepreneurship Course at NITI Aayog</div>
+            <div class="about-point">🌱 Learning React and modern UI development</div>
+          </div>
+        </div>
 
-  <ul>
-    <li>💻 Frontend Developer (HTML, CSS, JavaScript)</li>
-    <li>⚡ C++ Programmer & DSA Enthusiast</li>
-    <li>🚀 Built multiple mini projects</li>
-    <li>🏆 Participated in Smart India Hackathon (SIH) and secured a win at the internal level</li>
-  <li>📚 Successfully completed Entrepreneurship Program by NITI Aayog</li>
-    
-  </ul>
+        <div class="highlight-col">
+          <div class="highlight-box">
+            <h3>Highlights</h3>
+            <p>
+              Student developer with a growing portfolio, coding practice, hackathon participation, and strong interest in web development.
+            </p>
+          </div>
 
+          <div class="highlight-box">
+            <h3>Focus</h3>
+            <p>
+              Building responsive interfaces, improving problem-solving, and creating a stronger developer presence online.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="skills" class="reveal">
+    <div class="container">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>Technologies and areas I am currently working on.</p>
+      </div>
 
-</section>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>HTML</h3>
+            <span>90%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" data-width="90%"></div></div>
+        </div>
 
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>CSS</h3>
+            <span>88%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" data-width="88%"></div></div>
+        </div>
 
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>JavaScript</h3>
+            <span>80%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" data-width="80%"></div></div>
+        </div>
 
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>C++</h3>
+            <span>85%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" data-width="85%"></div></div>
+        </div>
 
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>DSA</h3>
+            <span>78%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" data-width="78%"></div></div>
+        </div>
 
+        <div class="skill-card">
+          <div class="skill-top">
+            <h3>React</h3>
+            <span>65%</span>
+          </div>
+          <div class="bar"><div class="bar-fill" data-width="65%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="projects" class="reveal">
+    <div class="container">
+      <div class="section-title">
+        <h2>Projects</h2>
+        <p>Some projects I have built while learning and practicing.</p>
+      </div>
 
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">Project Preview</div>
+          <div class="tag">JavaScript</div>
+          <h3>Color Switcher</h3>
+          <p>A simple interactive project to switch themes and colors with a clean UI.</p>
+          <a href="#" class="project-link">View Project →</a>
+        </div>
 
+        <div class="project-card">
+          <div class="project-image">Project Preview</div>
+          <div class="tag">HTML/CSS/JS</div>
+          <h3>BMI Calculator</h3>
+          <p>A responsive web app that calculates BMI and gives instant results.</p>
+          <a href="#" class="project-link">View Project →</a>
+        </div>
 
-<section id="skills">
+        <div class="project-card">
+          <div class="project-image">Project Preview</div>
+          <div class="tag">Beginner Project</div>
+          <h3>Guess the Number</h3>
+          <p>A fun logic-based mini game using JavaScript and user interaction.</p>
+          <a href="#" class="project-link">View Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h2>Skills</h2>
+  <section id="contact" class="reveal">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Let’s connect for internships, projects, or collaborations.</p>
+      </div>
 
-<div class="skills-container">
+      <div class="contact-card">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Let’s build something great.</h3>
+            <p>
+              I’m currently growing my skills in frontend development and DSA. You can connect with me through my coding profiles or use the contact form.
+            </p>
 
-<div class="skill">HTML</div>
-<div class="skill">CSS</div>
-<div class="skill">JavaScript</div>
-<div class="skill">React</div>
-<div class="skill">C++</div>
-<div class="skill">DSA</div>
+            <div class="contact-links">
+              <a href="mailto:yourmail@example.com">yourmail@example.com</a>
+              <a href="https://github.com/annu-codes" target="_blank">GitHub</a>
+              <a href="https://www.linkedin.com/in/anushka-maurya-8a8913313" target="_blank">LinkedIn</a>
+              <a href="https://leetcode.com/u/Anushka0123/" target="_blank">LeetCode</a>
+            </div>
+          </div>
 
-</div>
+          <form class="contact-form" onsubmit="sendMessage(event)">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</section>
+  <footer>
+    <div class="container">
+      <p>© 2026 Anushka Maurya. Built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
 
-
-<section id="projects">
-
-<h2>Projects</h2>
-
-<div class="project-container">
-
-<div class="project-card">
-<h3>Color Scheme Switcher</h3>
-<p>Theme switcher built using JavaScript.</p>
-</div>
-
-<div class="project-card">
-<h3>BMI Calculator</h3>
-<p>Calculate BMI using JavaScript.</p>
-</div>
-
-<div class="project-card">
-<h3>Guess The Number Game</h3>
-<p>Fun number guessing game.</p>
-</div>
-
-</div>
-
-</section>
-
-
-<section id="contact">
-
-<h2>Connect With Me</h2>
-
-<div class="social">
-    <div class="social-links">
-        <div class="social-links">
-
-<a href="https://leetcode.com/u/Anushka0123/" target="_blank">
-LeetCode
-</a>
-
-<a href="https://github.com/annu-codes" target="_blank">
-GitHub
-</a>
-
-<a href="https://www.linkedin.com/in/anushka-maurya-8a8913313" target="_blank">
-LinkedIn
-</a>
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>© 2026 Anushka Maurya</p>
-
-</footer>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
- 
- 
